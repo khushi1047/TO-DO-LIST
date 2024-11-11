@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,8,17,1) 35%, rgba(0,212,255,1) 100%);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 30%;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Align to the left */
+    gap: 0; /* Remove space between child elements */
+    align-items: center; /* Vertically center the elements */
+}
+
+.heading h1 {
+    padding: 20px;
+    margin-right: 0; /* Remove any right margin if set */
+}
+
+.heading img {
+    margin: 0; /* Remove margin */
+    height: 40px;
+}
+
+.btn{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: start  ;
+}
+.btn input{
+    padding: 20px;
+    border-radius: 30px;
+    width:100%;
+    box-sizing: border-box;
+    border-color: gainsboro;
+    
+}
+.btn input::placeholder{
+    font-size: 20px;
+}
+.btn button{
+    padding: 20px;
+    border-radius: 30px 30px 30px 30px;
+    width: 10%;
+    position: absolute; 
+    right: 36.3%;
+    background-color: tomato;
+    color: aliceblue;
+    border:none;
+}
+.btn button:hover{
+    cursor: pointer;
+}
